@@ -26,7 +26,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(247, 247, 247);
     font-weight: bold;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -101,7 +101,7 @@ img {
     height: 40px;
     color: #fff;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     border: 1px #fff;
     border-style: solid;
     border-radius: 50px;
@@ -122,8 +122,8 @@ img {
 }
 
 .nav-menu a {
-    margin-top: 30px;
-    font-size: 20px;
+    margin-top: 25px;
+    font-size: 18px;
 }
 
 .nav-menu a:hover {
@@ -131,7 +131,7 @@ img {
 }
 
 .nav-menu i {
-    font-size: 25px;
+    font-size: 22px;
     margin-right: 6px;
 }
 
@@ -142,10 +142,10 @@ img {
 }
 
 .nav-menu-sub a {
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(121, 117, 117);
-    margin-left: 40px;
-    margin-top: 30px;
+    margin-left: 35px;
+    margin-top: 20px;
 }
 
 .nav-menu-sub a:hover {
@@ -167,4 +167,42 @@ img {
     border-left: 0;
     border-color: rgb(88, 92, 95);
     border-style: solid;
+}
+
+.section-principal p {
+    color: white;
+    border-width: 0;
+    border-top: 0.1px;
+    border-left: 0;
+    border-color: rgb(88, 92, 95);
+    border-style: solid;
+}
+
+.busca {
+    height: 55px;
+    border-width: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0.1px;
+    border-color: rgb(88, 92, 95);
+    border-style: solid;
+}
+
+.barra-busca input{
+    color: #fff;
+    width: auto;
+    margin-left: 20px;
+    padding-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+
+.barra-busca i{
+    color: rgb(88, 92, 95);
+    margin-left: 240px;
+    padding-top: 15px;
+    font-size: 18px;
 }
