@@ -57,7 +57,7 @@ img {
 
 .scroll {
     width: 200px;
-    height: 400px;
+    height: 410px;
     overflow-y: hidden;
 }
 
@@ -203,11 +203,8 @@ img {
     border: none;
     font-size: 18px;
     outline: none;
-    padding-top: 27px;
-    position: relative;
+    padding: .25rem .5rem .5rem 0;
 }
-
-  
 
 .barra-busca i{
     color: rgb(88, 92, 95);
@@ -216,32 +213,133 @@ img {
     font-size: 18px;
 }
 
+.barra-busca .alert{
+    margin-left: 420px;
+    font-size: 25px;
+}
+
 .barra-busca img {
-    width: 40px;
-    height: 40px;
+    width: 35Px;
+    height: 35px;
     border-radius: 50%;
-    margin-top: 6px;
+    margin-top: 8px;
+    margin-right: 0;
 }
 
 .section-Play {
-    display: flex;
-    text-align: center;
+    display: block;
+    box-sizing: border-box;
+}
+
+.barra-play {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
-    justify-content: center;
+    bottom: 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px;
+    left: 0;
+    min-width: 990px;
+    padding: 0 24px;
+    position: fixed;
+    right: 0;
+    z-index: 300;
 }
 
 .barra-play .play{
-    color: aliceblue;
     font-size: 35px;
 }
 
-.barra-play .play:hover{
+.section-Play i:hover{
     background-color: #9e9595;
     border-radius: 50%;
+    cursor: pointer;
 }
 
-.barra-play .fet{
-    color: aliceblue;
-    font-size: 25px;
+.div-play .fet{
+    font-size: 20px;
     padding: 20px;
+}
+
+.div-tempo{
+    align-items: center;
+    display: flex;
+}
+
+.div-tempo hr{
+   width: 100%;
+}
+
+hr:hover{
+    cursor: pointer;
+}
+
+.div-tempo p{
+    padding: 15px;
+    font-size: 11px;
+    color: #9e9595;
+ }
+
+.musica-select {
+    margin: auto;
+    max-width: 55%;
+    width: 60%;
+}
+
+.div-music p {
+    flex: 0.9;
+    margin-left: 55px;
+}
+
+.div-music {
+    align-items: center;
+    display: flex;
+}
+
+.music-capa {
+    margin-left: 12px;
+    padding-left: 20px;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+.music-capa p{
+    margin-left: 12px;
+    color: aliceblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.music-capa img {
+    border-radius: 4px;
+    height: 28px;
+    object-fit: cover;
+    width: 28px;
+}
+
+.section-Play i{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.musica-select, .music-capa a {
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.comandos i {
+    margin-right: 15px;
+}
+
+.comandos {
+    height: 30px;
+    border-right: 1px solid;
+    color: rgb(59, 59, 59);
+}
+
+@media screen and (min-width: 1024px) {
+   
 }
